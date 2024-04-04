@@ -101,3 +101,8 @@ h1 {
 .appcenter_div button.delete:hover {
   background-color: rgb(210, 87, 87);
 }
+@media (max-width: 768px) {
+  .appcenter_div {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+}
